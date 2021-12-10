@@ -71,6 +71,9 @@ include_once "navbar.php";
 <?php
 include_once "./footer.php"
 ?>
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <!-- Initialize Swiper -->
 <script>
 	var swiper = new Swiper(".mySwiper", {
@@ -89,6 +92,7 @@ include_once "./footer.php"
 			prevEl: ".swiper-button-prev",
 		},
 	});
+</script>
 </script>
 </body>
 
