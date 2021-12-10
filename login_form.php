@@ -52,6 +52,10 @@ include_once "navbar.php";
 		</div>
 		<div class="col-md-4"></div>
 	</div>
+	<?php
+	include_once "./footer.php"
+	?>
 	</body>
+
 
 	</html>
