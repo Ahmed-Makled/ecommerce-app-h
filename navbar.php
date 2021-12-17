@@ -142,7 +142,7 @@ if (isset($_SESSION["uid"])) {
                                     <li><a href="index.php">Home<i class="fas fa-chevron-down"></i></a></li>
                                     <li><a href="profile.php">Prodcut<i class="fas fa-chevron-down"></i></a></li>
 
-                                    <li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
+                                    <li><a href="contact.php">Contact<i class="fas fa-chevron-down"></i></a></li>
                                 </ul>
                             </div> <!-- Menu Trigger -->
                             <div class="menu_trigger_container ml-auto">

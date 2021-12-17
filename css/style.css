@@ -1411,7 +1411,7 @@ select option {
 .footer-08 {
   padding: 0;
   overflow: hidden;
-  background: #f1f6f5 !important;
+  background: #f1f6f5;
 }
 .footer-08 ul.list-unstyled li a {
   color: rgba(0, 0, 0, 0.3);
@@ -1426,7 +1426,7 @@ select option {
 .footer-08 .contact-form .form-control {
   height: 50px;
   background: #fff;
-  color: rgba(0, 0, 0, 0.3);
+  color: #333;
   font-size: 14px;
   border-radius: 5px;
   -webkit-box-shadow: none;
