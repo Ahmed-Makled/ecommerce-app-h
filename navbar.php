@@ -21,7 +21,7 @@ if (isset($_SESSION["uid"])) {
                             <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918577/phone.png" alt=""></div>+0123456789
                         </div>
                         <div class="top_bar_contact_item">
-                            <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt=""></div><a href="mailto:admin@info.com">contact@amado.store</a>
+                            <div class="top_bar_icon"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918597/mail.png" alt=""></div><a href="mailto:admin@info.com">contact@AOU.store</a>
                         </div>
                         <div class="top_bar_content ml-auto">
 
@@ -80,7 +80,7 @@ if (isset($_SESSION["uid"])) {
                     <!-- Logo -->
                     <div class="col-lg-3 col-sm-3 col-3 order-1">
                         <div class="logo_container">
-                            <div class="logo"><a href="#">Amado Store</a></div>
+                            <div class="logo"><a href="#">AOU</a></div>
                         </div>
                     </div> <!-- Search -->
                     <div class="col-lg-5 col-12 order-lg-2 order-3 text-lg-left text-right">
