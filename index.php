@@ -43,7 +43,7 @@ include_once "navbar.php";
 					<div class='col-lg-3 col-md-6 mb-4 mb-lg-0 text-center'>
 					<!-- Card-->
 					<div class='card rounded shadow-sm shadow p-3 mb-5 bg-white rounded'>
-						<div class='card-body p-4'><img src='product_images/$pro_image' alt=' 'class='d-block mx-auto mb-3'style='width:220px; height:250px;'>
+						<div class='card-body p-4'><img src='product_images/$pro_image' alt=' 'class=' w-75 d-block mx-auto mb-3'style='width:220px; height:250px;'>
 							<h5> <a href='#' class='text-dark'>$pro_title</a></h5>
 							<p class='small text-muted font-italic'>
 							 $pro_price L.E

@@ -10,6 +10,7 @@ $result = [];
 if (isset($_POST['contact'])) {
     // print_r($_POST);
 
+
     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
     $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
     $subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);

@@ -1433,3 +1433,30 @@ select option {
   box-shadow: none;
   border: none;
 }
+
+.dark-mode {
+  background-color: #333 !important;
+  color: white !important;
+  border-top: none !important;
+}
+.dark-mode a {
+  color: white !important;
+  border-top: none !important;
+}
+.dark-mode input {
+  background-color: #333 !important;
+  border: none;
+  box-shadow: none;
+  color: white !important;
+  border-top: none !important;
+}
+.dark-mode .bg-white {
+  background-color: rgb(73, 73, 73) !important;
+  color: white !important;
+  border-top: none !important;
+}
+.main_nav.dark-mode {
+  background-color: rgb(73, 73, 73) !important;
+  color: white !important;
+  border-top: none !important;
+}

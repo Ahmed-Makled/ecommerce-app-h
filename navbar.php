@@ -1,8 +1,14 @@
 <?php
 $var1 = false;
+$flag = false;
 if (isset($_SESSION["uid"])) {
     $var1 = true;
-}
+};
+function toggel()
+{
+    return $flag = true;
+};
+
 ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
@@ -32,7 +38,7 @@ if (isset($_SESSION["uid"])) {
                                 <div><a href="customer_registration.php?register=1">Register</a></div>
                                 
                                 <div><a href="login_form.php">Sign in</a></div> -->
-
+                                <button onclick="myFunction()">Toggle dark mode</button>
                                 <?php if ($var1) : ?>
                                     <ul class="standard_dropdown main_nav_dropdown">
                                         <li class="hassubs">
@@ -130,7 +136,7 @@ if (isset($_SESSION["uid"])) {
                 </div>
             </div>
         </div> <!-- Main Navigation -->
-        <nav class="main_nav">
+        <nav id="_nav" class="main_nav">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -234,3 +240,18 @@ if (isset($_SESSION["uid"])) {
         </div>
     </header>
 </div>
+
+
+<script>
+    function myFunction() {
+        var element = document.body;
+        var topBar = document.querySelector('.top_bar');
+        var _nav = document.getElementById('_nav');
+        var _footer = document.querySelector('footer');
+
+        element.classList.toggle("dark-mode");
+        topBar.classList.toggle("dark-mode");
+        _nav.classList.toggle("dark-mode");
+        _footer.classList.toggle("dark-mode");
+    }
+</script>
